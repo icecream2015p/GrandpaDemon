@@ -13,16 +13,16 @@ class ListManager {
         inline static bool isSupremeSearching;
 
         inline static void parseRequestString(std::string str) {
-            size_t isFound = str.find("_id");
+            size_t isFound = str.find("level_id");
 
             while (isFound != std::string::npos) {
-                str = str.substr(isFound + 5);
-                size_t findBracket = str.find("}");
+                str = str.substr(isFound + 10);
+                size_t findComma = str.find(",");
 
-                int id = stoi(str.substr(0, findBracket));
+                int id = stoi(str.substr(0, findComma));
                 demonIDList.push_back(id);
 
-                isFound = str.find("_id");
+                isFound = str.find("level_id");
             }
         }
 
