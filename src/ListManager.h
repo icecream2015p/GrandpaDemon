@@ -92,6 +92,7 @@ class ListManager {
                     }
                 }
             } 
+            return nullptr;
         }
 
         inline static GJSearchObject* getSearchObject(int upper, int lower) {
