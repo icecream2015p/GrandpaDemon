@@ -1,12 +1,12 @@
 {
 	"geode": "4.6.1",
-	"version": "v1.2.1",
+	"version": "v1.2.2",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
 		"mac": "2.2074"
 	},
-	"id": "itzkiba.grandpa_demon",
+	"id": "icecream2015p.grandpa_demon_update",
 	"name": "Grandpa Demon",
 	"developer": "ItzKiba",
 	"description": "Adds additional demon difficulties",
