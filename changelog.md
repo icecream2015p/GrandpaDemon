@@ -1,3 +1,7 @@
+# v1.2.2
+* Added credits
+* Updated Description
+
 # v1.2.1
 * Made compatible with 2.2074
 * Made compatible with AREDL V3
